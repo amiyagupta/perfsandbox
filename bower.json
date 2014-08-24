@@ -1,0 +1,30 @@
+{
+  "name": "perfsandbox",
+  "version": "0.0.1",
+  "homepage": "https://github.com/amiyagupta/perfsandbox",
+  "authors": [
+    "Amiya Gupta <amiya.gupta@outlook.com>"
+  ],
+  "description": "Performance Sandbox",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  },
+  "preen": {
+    "jquery": [
+      "dist/*.js"
+    ]
+  }
+}
